@@ -1,8 +1,8 @@
-# Ressources pour les cours de Vincent Englebert
+# Teaching Resources for the Vincent Englebert's lessons
 
 ## Projet individuel
 
-
 ## Ingénierie des architectures logicielles
 
-+ Projet Eclipse Producteur/Consommateur en Java
+
+
