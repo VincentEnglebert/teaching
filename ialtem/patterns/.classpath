@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-1.2-api-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-flume-ng-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-api-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-appserver-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-slf4j-impl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-taglib-2.10.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
