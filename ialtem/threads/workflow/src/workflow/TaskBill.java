@@ -1,9 +1,15 @@
 package workflow;
 
+/**
+ * 
+ * @author UNamur
+ *
+ */
 public class TaskBill extends Task {
 
 	public TaskBill(SharedQueue<Document>[] in, SharedQueue<Document>[] out) {
-		super("BILL",in, out);
+		super("BILL", in, out);
+		
 		assert in.length == 1;
 		assert out.length == 1;
 	}

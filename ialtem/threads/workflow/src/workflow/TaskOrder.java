@@ -1,5 +1,10 @@
 package workflow;
 
+/**
+ * 
+ * @author UNamur
+ *
+ */
 public class TaskOrder extends Task {
 
 	public TaskOrder(SharedQueue<Document>[] in, SharedQueue<Document>[] out) {

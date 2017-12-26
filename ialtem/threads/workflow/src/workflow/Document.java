@@ -4,14 +4,15 @@ import java.util.Random;
 
 /**
  * 
- * @author UNamur 
- * Documents can be shared between Send and Bill Tasks -->
- * methods must be synchronized also.
+ * @author UNamur
+ * 
+ *         Documents can be shared between Send and Bill Tasks --> methods must
+ *         be synchronized also.
  *
  */
 public class Document {
 	// Number of seconds between each process to slow down the display
-	static private int speed=0;
+	static private int speed = 0;
 	static final private Random random = new Random();
 	// to assign unique Id to documents and facilitate the display
 	static private long last = 0;
@@ -48,12 +49,11 @@ public class Document {
 		byorder = true;
 	}
 
-
 	public synchronized boolean isPassedByOrder() {
 		return byorder;
 	}
-	
-	static public void setSpeed(int s){
-		speed=s;
+
+	static public void setSpeed(int s) {
+		speed = s;
 	}
 }

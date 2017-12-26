@@ -1,5 +1,10 @@
 package workflow;
 
+/**
+ * 
+ * @author UNamur
+ *
+ */
 public class TaskTrash extends Task {
 
 	public TaskTrash(SharedQueue<Document>[] in, SharedQueue<Document>[] out) {

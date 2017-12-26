@@ -1,5 +1,10 @@
 package workflow;
 
+/**
+ * 
+ * @author UNamur
+ *
+ */
 public class MainWorkflow {
 
 	public static void main(String[] args) {

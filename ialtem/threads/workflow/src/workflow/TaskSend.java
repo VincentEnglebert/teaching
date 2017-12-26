@@ -1,5 +1,10 @@
 package workflow;
 
+/**
+ * 
+ * @author UNamur
+ *
+ */
 public class TaskSend extends Task {
 
 	public TaskSend(SharedQueue<Document>[] in, SharedQueue<Document>[] out) {
