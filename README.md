@@ -2,7 +2,6 @@
 
 ## Projet individuel
 
-in master
 
 ## Ingénierie des architectures logicielles
 
