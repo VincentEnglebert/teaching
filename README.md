@@ -2,6 +2,8 @@
 
 ## Projet individuel
 
+only in test
+
 ## Ingénierie des architectures logicielles
 
 
