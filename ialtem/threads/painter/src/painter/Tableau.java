@@ -12,6 +12,7 @@ public class Tableau {
 	static private int i=0;
 	
 	public synchronized void paint(Color couleur) {
+		assert couleur!=null;
 		
 		while (flag[couleur.getIndex()-1]==false){
 			/**

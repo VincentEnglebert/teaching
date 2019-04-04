@@ -6,6 +6,9 @@ public class Painter  extends Thread {
 	private final Color color;
 	
 	public Painter(Tableau t, Color c) {
+		assert t!=null;
+		assert c!=null;
+		
 		tableau=t;
 		color=c;
 	}

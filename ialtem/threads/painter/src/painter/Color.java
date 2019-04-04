@@ -7,6 +7,7 @@ public enum Color {
 	private final int index;
 
 	private Color(int c) {
+		assert c>=0;
 		index=c;
 	}
 	
