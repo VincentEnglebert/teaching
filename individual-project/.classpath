@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="examples"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-1.2-api-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-api-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-log4j-2.10.0-bin/log4j-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/mingLayout/miglayout-4.0-ideutil.jar"/>
+	<classpathentry kind="lib" path="lib/mingLayout/miglayout-4.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/mingLayout/miglayout-4.0-swing.jar"/>
+	<classpathentry kind="lib" path="lib/mingLayout/miglayout-4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

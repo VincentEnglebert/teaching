@@ -1,0 +1,11 @@
+This folder contains the following files:
+
+miglayout-version-swing.jar            Miglayout for Swing and Java 1.5.
+miglayout-version-swt.jar              Miglayout for SWT and Java 1.5.
+miglayout-version-sources.jar          MiG Layout source code. Java 1.5. SWT and Swing.
+miglayout-version-ideutil.jar          A jar containing a class for usage by IDE vendors.
+miglayout-version-javadoc.zip          The JavaDoc for MiGLayout. SWT and Swing.
+license.txt                            The license
+
+Mikael Grev
+MiG InfoCom AB
