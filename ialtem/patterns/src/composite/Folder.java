@@ -6,17 +6,28 @@ import composite.dp.Component;
 public class Folder extends Composite implements Common{
 	private String foldername=null;
 
+	/**
+	 * 
+	 * @param folderParent the parent (can be null)
+	 * @param fn the name of the resource (not null and !="")
+	 */
 	protected Folder(Folder folderParent, String fn) {	
 		super(folderParent);
 		assert folderParent!=null;
 		assert fn!=null && !fn.equals("");
+		
 		foldername=fn;
 		folderParent.addChild(this);
 	}
 	
+	/**
+	 * When the folder is the root.
+	 * @param fn :: fn!=null && !fn.equals("");
+	 */
 	protected Folder(String fn) {	
-		super(null);
+		super();
 		assert fn!=null && !fn.equals("");
+		
 		foldername=fn;
 	}
 
@@ -32,6 +43,7 @@ public class Folder extends Composite implements Common{
 	@Override
 	public void addChild(Component candidate) {
 		assert candidate!=null;
+		
 		checkPrecondition(candidate);
 		super.addChild(candidate);
 	}

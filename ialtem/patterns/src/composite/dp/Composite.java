@@ -10,6 +10,10 @@ public abstract class Composite extends Component {
 	protected Composite(Composite p) {
 		super(p);
 	}
+	
+	protected Composite() {
+		super();
+	}
 
 	@Override
 	public List<Component> getChildren() {
@@ -19,6 +23,17 @@ public abstract class Composite extends Component {
 	public void addChild(Component c) {
 		assert c!=null;
 		children.add(c);
+	}
+	
+	/**
+	 * @pre c!=null && c is a child of this.
+	 * @post c is deconnected from this
+	 * @param c the child to remove
+	 */
+	public void remove(Component c) {
+		assert c!=null  && children.contains(c);
+		children.remove(c);
+		c.parent=null;
 	}
 	
 }

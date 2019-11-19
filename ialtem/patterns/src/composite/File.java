@@ -2,19 +2,31 @@ package composite;
 
 import composite.dp.Leaf;
 
+
+/**
+ * This class denotes a file. By convention, a file must always belong to a folder.
+ * @author V. Englebert
+ *
+ */
 public class File extends Leaf implements Common {
 	
 	private String filename=null;
 
-	public File(Folder folder, String fn) {
-		super(folder);
+	/**
+	 * 
+	 * @param folderParent the parent
+	 * @param fn the name of the resource (not null and !="")
+	 */
+	public File(Folder folderParent, String fn) {
+		super(folderParent);
 		
-		assert folder!=null : "A file must always be created inside a folder."; 
+		assert folderParent!=null : "A file must always be created inside a folder."; 
 		
 		filename=fn;
-		folder.addChild(this);
+		folderParent.addChild(this);
 		assert fn!=null && !fn.equals("");
 	}
+	
 
 	public String getFilename() {
 		return filename;
