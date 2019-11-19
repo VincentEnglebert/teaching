@@ -33,7 +33,7 @@ public class SimpleGUICustom extends SimpleGUI implements Observer {
 
 		textField.setText(model.getDisplay());
 		textField.setEditable(false);
-
+/*
 		button_k0.addMouseListener(new MouseListener() {
 
 			@Override
@@ -67,7 +67,7 @@ public class SimpleGUICustom extends SimpleGUI implements Observer {
 				logger.debug("mouseClicked");
 			}
 		});
-
+*/
 		button_k0.addActionListener(new ActionListener() {
 
 			@Override
