@@ -3,7 +3,7 @@ package command;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * Set a char at position pos
  *

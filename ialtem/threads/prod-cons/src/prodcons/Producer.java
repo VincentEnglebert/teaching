@@ -2,7 +2,7 @@ package prodcons;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * Stores an infinite series of messages until <pre>stopIt</pre> is called. 
  *
  */

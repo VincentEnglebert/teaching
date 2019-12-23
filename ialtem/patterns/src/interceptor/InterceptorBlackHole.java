@@ -2,7 +2,7 @@ package interceptor;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * This interceptor consumes all the events !
  *

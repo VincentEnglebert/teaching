@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="sockets/tcp/src"/>
+	<classpathentry kind="src" path="sockets/udp/src"/>
+	<classpathentry kind="src" path="threads/boundedStack/src"/>
+	<classpathentry kind="src" path="threads/notification/src"/>
+	<classpathentry kind="src" path="threads/prod-cons/src"/>
+	<classpathentry kind="src" path="threads/synchronizedBlock/src"/>
+	<classpathentry kind="lib" path="threads/prod-cons/exec/prodcons.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="sockets/tcp/bin"/>
+</classpath>

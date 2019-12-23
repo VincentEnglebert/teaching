@@ -2,7 +2,7 @@ package decorator;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * This decorator logs all the calls before and after the delegation.
  *

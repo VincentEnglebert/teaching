@@ -2,7 +2,7 @@ package prodcons;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * Consumes messages from a queue until <pre>stopIt</pre> is called.
  *
  */

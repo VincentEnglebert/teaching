@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  *         Documents can be shared between Send and Bill Tasks --> methods must
  *         be synchronized also.

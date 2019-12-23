@@ -1,6 +1,6 @@
 
 /**
- * @author UNamur
+ * @author V. Englebert
  *
  */
 package abstractFactory;

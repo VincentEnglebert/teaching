@@ -1,8 +1,6 @@
+
 /**
- * 
- */
-/**
- * @author UNamur
+ * @author V. Englebert
  *
  */
 package configuration;

@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  *         This object is shared between the main thread and the Environment
  *         thread.

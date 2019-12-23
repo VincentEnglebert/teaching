@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  *
  */
 public class SharedQueue<E>  {

@@ -2,7 +2,7 @@ package command;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * (Re)Initialize the document with a fresh text.
  *

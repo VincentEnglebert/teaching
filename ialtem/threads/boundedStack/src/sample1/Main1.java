@@ -4,7 +4,7 @@ import stack.BoundedStack;
 import stack.MyStack;
 
 /**
- * @author UNamur
+ * @author V. Englebert
  *
  */
 public class Main1 {

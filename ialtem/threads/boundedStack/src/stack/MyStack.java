@@ -3,7 +3,7 @@ package stack;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  *
  * @param <E> Type of elements
  * 

@@ -1,7 +1,7 @@
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * This resource is not protected by the 'synchronized' prefix.
  * Threads will share it within a synchronized block to avoid

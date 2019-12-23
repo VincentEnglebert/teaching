@@ -4,7 +4,7 @@ import java.io.PrintStream;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * This class must be copied/pasted and adapted for every class that
  * is a singleton. This code is just a template.
  *

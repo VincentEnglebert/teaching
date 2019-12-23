@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author UNamur
+ * @author V. Englebert
  *
  */
 public class Main {

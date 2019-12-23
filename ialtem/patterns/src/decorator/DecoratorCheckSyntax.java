@@ -2,7 +2,7 @@ package decorator;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * This decorator checks the syntax of the query.
  *

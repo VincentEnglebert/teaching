@@ -7,7 +7,7 @@ import java.util.Map;
  * This class is the main construct of the pattern. It acts as a template class
  * (
  * 
- * @author UNamur
+ * @author V. Englebert
  *
  */
 public abstract class Configuration {

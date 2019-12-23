@@ -2,7 +2,7 @@ package workflow;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  *
  */
 public class Util {

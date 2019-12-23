@@ -4,7 +4,7 @@ package command;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * Delete a char at position pos
  *

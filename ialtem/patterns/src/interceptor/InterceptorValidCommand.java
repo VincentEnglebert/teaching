@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 
 /**
  * 
- * @author UNamur
+ * @author V. Englebert
  * 
  * This interceptor ensures that only valid commands are allowed.
  *
