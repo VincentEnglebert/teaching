@@ -1,0 +1,11 @@
+bin
+/individual-project/${LOG_DIR}
+/individual-project/bin
+/individual-project/latex/example-latex.synctex.gz
+/individual-project/latex/example-latex.toc
+/individual-project/latex/example-latex.aux
+/individual-project/latex/example-latex.log
+/individual-project/latex/example-latex.out
+/.metadata/
+.settings
+/individual-project/examples/javaFx/out

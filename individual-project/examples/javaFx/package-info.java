@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author UNamur
- *
- */
-package javaFx;
