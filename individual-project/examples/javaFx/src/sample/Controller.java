@@ -1,13 +1,9 @@
 package sample;
 
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.effect.Glow;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
-import javafx.scene.transform.Rotate;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -28,9 +24,11 @@ public class Controller implements Observer {
     private ModelCalculator model;
 
     public Controller() {
-        model = new ModelCalculator();
+        model= SingletonRPNModel.getInstance();
+        //model=new ModelCalculator();
         model.addObserver(this);
     }
+
 
     /**
      * Triggered by the widgets
