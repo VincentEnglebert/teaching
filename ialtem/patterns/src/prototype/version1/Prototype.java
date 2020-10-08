@@ -45,7 +45,7 @@ public class Prototype {
 	 * 
 	 * @return a fresh copy of this
 	 */
-	public Prototype copy(){
+	public Prototype clone(){
 		Prototype result=new Prototype(attributes);
 		return result;
 	}

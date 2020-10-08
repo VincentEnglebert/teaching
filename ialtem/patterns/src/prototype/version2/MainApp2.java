@@ -5,24 +5,27 @@ package prototype.version2;
  */
 public class MainApp2 {
 
+	public static final String TYPE_NAME = "__name__";
+	public static final String TYPE = "__type__";
+
 	static public void main(String args[]) {
 		// 3 objects: jean, hector and toyota
 
 		Prototype jean = new Prototype();
-		jean.set("name", "jean").set("age", 10);
-		Prototype hector = jean.copy().set("name", "hector");
+		jean.set(TYPE_NAME, "jean").set("age", 10);
+		Prototype hector = jean.clone().set(TYPE_NAME, "hector");
 		Prototype toyota = new Prototype().set("marque", "toyota").set("plaque", "XXX999");
 
 		// 2 class objects : Person, Car
 
-		Prototype tPerson = new Prototype().set("name", "Person");
-		Prototype tCar = new Prototype().set("name", "Car");
+		Prototype tPerson = new Prototype().set(TYPE_NAME, "Person");
+		Prototype tCar = new Prototype().set(TYPE_NAME, "Car");
 
 		// fix the type of objects
 
-		jean.set("type", tPerson);
-		hector.set("type", tPerson);
-		toyota.set("type", tCar);
+		jean.set(TYPE, tPerson);
+		hector.set(TYPE, tPerson);
+		toyota.set(TYPE, tCar);
 
 		// 1 metaclass object : tClass
 
@@ -30,17 +33,17 @@ public class MainApp2 {
 
 		// fix the type of classes
 
-		tPerson.set("type", tClass);
-		tCar.set("type", tClass);
+		tPerson.set(TYPE, tClass);
+		tCar.set(TYPE, tClass);
 
 		// fix the type of metaclass
 
-		tClass.set("type", tClass);
+		tClass.set(TYPE, tClass);
 
 		tPerson.set("print()", new Method() {
 			@Override
 			public Object call(Prototype self) {
-				System.out.println(String.format("age of %s is %s", self.get("name"), self.get("age")));
+				System.out.println(String.format("age of %s is %s", self.get(TYPE_NAME), self.get("age")));
 				return null;
 			}
 		});

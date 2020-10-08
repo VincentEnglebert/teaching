@@ -9,7 +9,7 @@ public class MainApp1 {
 		
 		Prototype jean=new Prototype();
 		jean.set("name", "jean").set("age", 10);
-		Prototype hector=jean.copy().set("name", "hector");
+		Prototype hector=jean.clone().set("name", "hector");
 		Prototype toyota=new Prototype().set("marque", "toyota").set("plaque", "XXX999");
 		
 		

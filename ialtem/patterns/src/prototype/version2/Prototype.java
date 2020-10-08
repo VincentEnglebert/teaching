@@ -20,10 +20,14 @@ public class Prototype {
 	/**
 	 * Set attributed named 'name' to 'value'
 	 * @param name not null
-	 * @param value any value
+	 * @param value any value not null
 	 * @return this
 	 */
 	public Prototype set(String name,Object value){
+		assert name!=null;
+		assert "".equals(name)==false;
+		assert value!=null;
+		
 		attributes.put(name, value);
 		return this;
 	}
@@ -35,6 +39,9 @@ public class Prototype {
 	 * @return the value of attribute 'name' and null is it doesn't exist
 	 */
 	public Object get(String name){
+		assert name!=null;
+		assert "".equals(name)==false;
+
 		return attributes.get(name);
 	}
 	
@@ -42,7 +49,7 @@ public class Prototype {
 	 * 
 	 * @return a fresh copy of this
 	 */
-	public Prototype copy(){
+	public Prototype clone(){
 		Prototype result=new Prototype(attributes);
 		return result;
 	}
@@ -70,9 +77,10 @@ public class Prototype {
 	public Object call(String method)  {
 		assert method!=null;
 
-		Method xmethod=(Method)((Prototype)(this.get("type"))).get(method);
+		Prototype type = (Prototype)(this.get(MainApp2.TYPE));
+		Method xmethod=(Method)type.get(method);
 		if (xmethod==null){
-			System.err.printf("No method named: %s for object (%s) \n",method,this.toString());
+			System.err.printf("No method named: %s\nfor object (%s)\nof class (%s) \n",method,this.toString(),type.get(MainApp2.TYPE_NAME));
 			return null;
 		} else {
 			return xmethod.call(this);
