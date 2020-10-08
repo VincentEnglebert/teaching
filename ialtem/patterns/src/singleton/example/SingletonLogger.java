@@ -11,31 +11,36 @@ import java.io.PrintStream;
  */
 public class SingletonLogger {
 
-	private static SingletonLogger singleton=null;
+	private static SingletonLogger instance=null;
 	private final PrintStream out;
 	
 	private SingletonLogger(PrintStream stream){
 		assert stream!=null;
-		
-		this.out=System.err;
+		this.out=stream;
 		
 	}
 	
 	public static SingletonLogger getInstance(){
-		if (singleton==null){
-			singleton=new SingletonLogger(System.err);
+		if (instance==null){
+			instance=new SingletonLogger(System.err);
 		}
-		return singleton;
+		return instance;
 	}
 	
-	public PrintStream out(String msg){
-		out.print(msg);
-		return this.out;
+	public void info(String msg){
+		assert msg!=null;
+		out.println("WARNING: "+msg);
+	}
+	public void warning(String msg){
+		assert msg!=null;
+		out.println("WARNING: "+msg);
 	}
 
-	public PrintStream out(){
-		return this.out;
+	public void error(String msg){
+		assert msg!=null;
+		out.println("ERROR: "+msg);
 	}
+
 	
 	
 }
