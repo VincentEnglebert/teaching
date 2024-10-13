@@ -1,5 +1,10 @@
 package decorator;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 public abstract class Proxy implements IReal {
 	private final IReal reference;
 	

@@ -1,5 +1,10 @@
 package memento;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 public class MainMemento {
 
 	public static void main(String[] args) {

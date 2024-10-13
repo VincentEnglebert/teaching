@@ -1,5 +1,9 @@
 package playerRole;
 
+/**
+ * @author Vincent Englebert
+ */
+
 public abstract class AbstractRole {
 
 	// a map would be a better implementation, especially for languages with
@@ -14,13 +18,13 @@ public abstract class AbstractRole {
 		attributes = objects;
 	}
 
-	public void setPlayer(Player player){
-		assert player!=null;
-		
-		this.player=player;
+	public void setPlayer(Player player) {
+		assert player != null;
+
+		this.player = player;
 	}
 
-	public Player getPlayer(){
+	public Player getPlayer() {
 		return player;
 	}
 }

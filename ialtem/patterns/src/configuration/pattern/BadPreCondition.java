@@ -1,3 +1,7 @@
+/**
+ * @author Vincent Englebert
+ */
+
 package configuration.pattern;
 
 public class BadPreCondition extends Exception {
@@ -10,6 +14,10 @@ public class BadPreCondition extends Exception {
 	
 	public BadPreCondition() {
 		this("");
+	}
+
+	public String getMsg() {
+		return msg;
 	}
 
 }

@@ -1,5 +1,8 @@
 package decorator;
 
+/**
+ * @author Vincent Englebert
+ */
 
 
 public class Real implements IReal {

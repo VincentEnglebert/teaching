@@ -1,3 +1,7 @@
+/**
+ * @author Vincent Englebert
+ */
+
 package configuration.pattern;
 
 public interface ConfigElement {

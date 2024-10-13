@@ -27,7 +27,7 @@ public abstract class Composite extends Component {
 	
 	/**
 	 * @pre c!=null && c is a child of this.
-	 * @post c is deconnected from this
+	 * @post c is disconnected from this
 	 * @param c the child to remove
 	 */
 	public void remove(Component c) {

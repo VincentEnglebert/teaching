@@ -1,5 +1,10 @@
 package interceptor;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 public interface IInterceptor {
 
 	/**

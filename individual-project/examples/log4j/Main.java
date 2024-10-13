@@ -1,30 +1,25 @@
 /**
- * 
- */
-package log4j;
-
-import org.apache.log4j.PropertyConfigurator;
-
-/**
- * @author UNamur
+ * @author V. Englebert
  *
  */
 
+package log4j;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
- 
-public class Main
-{
-    private static final Logger LOGGER = LogManager.getLogger(Main.class.getName());
-     
-    public static void main(String[] args)
-    {
-    	
-    	 //PropertyConfigurator.configure("log4j2.properties");
-    	 
-        LOGGER.debug("Debug Message Logged !!");
-        LOGGER.info("Info Message Logged !!");
-        LOGGER.debug("Another Debug Message !!");
-    }
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+public class Main {
+	// Création d'un logger
+	private static final Logger logger = LogManager.getLogger(Main.class);
+
+	public static void main(String[] args) {
+		// BasicConfigurator.configure();
+		Logger LOGGER = LogManager.getRootLogger();
+
+		LOGGER.debug("Debug Message Logged !!");
+		LOGGER.info("Info Message Logged !!");
+		LOGGER.debug("Another Debug Message !!");
+	}
 }

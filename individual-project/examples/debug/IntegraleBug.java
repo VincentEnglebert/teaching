@@ -1,5 +1,11 @@
 package debug;
 
+/**
+ * @author V. Englebert
+ * This program deliberately includes a bug to illustrate how a debugger works.
+ * 
+ */
+
 public class IntegraleBug {
 
 	interface Function {
@@ -19,7 +25,7 @@ public class IntegraleBug {
 	}
 
 	static private double absolute(double d) {
-		return d < 0.0 ? -d : d;
+		return d < 0.0 ? d : -d;
 	}
 
 	public static void main(String args[]) {

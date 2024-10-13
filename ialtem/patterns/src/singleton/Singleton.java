@@ -5,6 +5,7 @@ package singleton;
  * @author V. Englebert
  * This class must be copied/pasted and adapted for every class that
  * is a singleton. This code is just a template.
+ * This implementation is not suitable for use in a multi-threaded program.
  *
  */
 public class Singleton {

@@ -15,7 +15,7 @@ public interface Common {
 	public String getName();
 	
 	/**
-	 * Print recursevely on System.out the resource (one line per resource) 
+	 * Print recursively on System.out the resource (one line per resource) 
 	 */
 	public void printAll();
 }

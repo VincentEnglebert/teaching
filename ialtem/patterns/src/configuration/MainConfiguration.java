@@ -1,7 +1,11 @@
+/**
+ * @author Vincent Englebert
+ */
+
 package configuration;
 
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-
 import configuration.pattern.BadPreCondition;
 import configuration.pattern.example.Audit;
 import configuration.pattern.example.Front;
@@ -21,11 +25,12 @@ public class MainConfiguration {
 	public static final String LAYER_1 = "Layer 1";
 
 	public static void main(String[] args) {
+		BasicConfigurator.configure();
 		Logger logger = Logger.getLogger(MainConfiguration.class);
 
-		Front front=new Front();
-		Repository repository=new Repository();
-		Audit audit=new Audit();
+		Front front = new Front();
+		Repository repository = new Repository();
+		Audit audit = new Audit();
 		Layer1 layer1 = new Layer1();
 		Layer2 layer2 = new Layer2();
 		Layer3 layer3 = new Layer3();
@@ -47,4 +52,3 @@ public class MainConfiguration {
 
 	}
 }
-

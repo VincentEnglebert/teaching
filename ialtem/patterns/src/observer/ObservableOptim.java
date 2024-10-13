@@ -1,5 +1,9 @@
 package observer;
 
+/**
+ * @author Vincent Englebert
+ */
+
 public class ObservableOptim extends Observable {
 	private boolean hasChanged = false;
 

@@ -1,5 +1,9 @@
 package observer;
 
+/**
+ * @author Vincent Englebert
+ */
+
 import java.util.HashSet;
 import java.util.Set;
 

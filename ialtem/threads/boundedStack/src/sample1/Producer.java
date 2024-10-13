@@ -1,11 +1,15 @@
 package sample1;
 
+/**
+ * @author Vincent Englebert
+ */
+
 import java.util.Random;
 
 import stack.MyStack;
 
 public class Producer extends Thread {
-	private Random r=new Random();
+	private Random r = new Random();
 	private MyStack<Integer> stack;
 
 	public Producer(MyStack<Integer> stack) {

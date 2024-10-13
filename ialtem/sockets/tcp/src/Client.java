@@ -28,7 +28,7 @@ public class Client {
 			System.out.printf("Type\n"
 					+ "\t?end : to end the connection\n"
 					+ "\t?clients : to obtain the number of simultaneous connections on the server\n"
-					+ "\tanything else will be sent to the server to be translated in uppercase\n",null);
+					+ "\tanything else will be sent to the server to be translated in uppercase\n");
 
 
 			while (true) {
