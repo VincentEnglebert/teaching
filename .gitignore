@@ -9,3 +9,4 @@ bin
 /.metadata/
 .settings
 /individual-project/examples/javaFx/out
+web/venv
