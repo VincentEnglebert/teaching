@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 /**
  * @author V. Englebert
  *

@@ -1,5 +1,10 @@
 package interceptor;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 import java.util.Date;
 
 import org.apache.log4j.Logger;

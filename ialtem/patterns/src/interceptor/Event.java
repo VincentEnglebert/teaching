@@ -1,5 +1,10 @@
 package interceptor;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 //import java.nio.charset.StandardCharsets;
 
 public class Event {

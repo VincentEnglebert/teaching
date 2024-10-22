@@ -1,5 +1,9 @@
 package observer.example;
 
+/**
+ * @author Vincent Englebert
+ */
+
 public class Pair<A, B> {
 
 	public final A first;
@@ -20,8 +24,7 @@ public class Pair<A, B> {
 
 	@Override
 	public String toString() {
-		return String.format("(%s,%s)", first == null ? "null" : first.toString(),
-				second == null ? "null" : second.toString());
+		return String.format("(%s,%s)", first == null ? "null" : first.toString(), second == null ? "null" : second.toString());
 	}
 
 	@Override

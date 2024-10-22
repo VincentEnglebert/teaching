@@ -37,7 +37,7 @@ class Connection extends Thread {
 	}
 
 	public void run() {
-		boolean stop = false;
+		boolean  stop = false;
 		try {
 			while (!stop) {
 				String result = in.readLine().toUpperCase();

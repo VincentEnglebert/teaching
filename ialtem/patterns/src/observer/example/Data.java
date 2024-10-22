@@ -1,5 +1,9 @@
 package observer.example;
 
+/**
+ * @author Vincent Englebert
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 

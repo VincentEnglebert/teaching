@@ -1,5 +1,10 @@
 package decorator;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 public class MainDecorator {
 
 	public static void main(String[] args) {

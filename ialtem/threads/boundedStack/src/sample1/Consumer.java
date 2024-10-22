@@ -1,14 +1,18 @@
 package sample1;
 
+/**
+ * @author Vincent Englebert
+ */
+
 import java.util.Random;
 
 import stack.MyStack;
 
 public class Consumer extends Thread {
-	private final Random r=new Random();
+	private final Random r = new Random();
 	private final MyStack<Integer> stack;
 
-	public Consumer(MyStack<Integer> stack) {
+	public Consumer(MyStack<Integer> stack) {		
 		assert stack != null;
 
 		this.stack = stack;

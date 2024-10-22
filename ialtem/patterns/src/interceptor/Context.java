@@ -1,5 +1,9 @@
 package interceptor;
 
+/**
+ * @author Vincent Englebert
+ */
+
 import java.util.Date;
 
 public class Context {

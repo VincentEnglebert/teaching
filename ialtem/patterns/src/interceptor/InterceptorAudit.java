@@ -1,5 +1,10 @@
 package interceptor;
 
+/**
+ * @author Vincent Englebert
+ */
+
+
 import org.apache.log4j.Logger;
 
 public class InterceptorAudit implements IInterceptor {

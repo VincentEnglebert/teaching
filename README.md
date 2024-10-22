@@ -4,17 +4,17 @@
 
 ## bagi(empty) :
 
-* Modélisation organisationnelle et métier : langages et méthodes [IBAGM322]
+* Mod�lisation organisationnelle et m�tier : langages et méthodes [IBAGM322]
 
 
 ## ialtem
 
-* Ingénierie des architectures logicielles : technologies et méthodes [IHDCM033]
-* Ingénierie des architectures logicielles : technologies et méthodes [INFOM112]
+* Ing�nierie des architectures logicielles : technologies et méthodes [IHDCM033]
+* Ing�nierie des architectures logicielles : technologies et méthodes [INFOM112]
 
 ## ialtem-mde : 
 
-* Ingénierie des architectures logicielles dirigées par les modèles [INFOM434]
+* Ing�nierie des architectures logicielles dirigées par les modèles [INFOM434]
 
 
 ## individual-project: 
@@ -25,7 +25,7 @@
 
 ## lil (empty):
 
-* Laboratoire d'ingénierie du logiciel [IHDCM032]
+* Laboratoire d'ing�nierie du logiciel [IHDCM032]
 
 
 

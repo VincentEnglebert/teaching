@@ -1,5 +1,9 @@
 package stack;
 
+/**
+ * @author Vincent Englebert
+ */
+
 public class BoundedStack<E> implements MyStack<E> {
 	private int max_size;
 	private E stack[];
@@ -7,12 +11,16 @@ public class BoundedStack<E> implements MyStack<E> {
 
 	@SuppressWarnings("unchecked")
 	public BoundedStack(int max_size) {
+		assert max_size >= 0;
+
 		this.top = 0;
 		this.max_size = max_size;
-		stack = (E[]) new Object[max_size]; 
+		stack = (E[]) new Object[max_size];
 	}
 
 	public synchronized void push(E item) {
+		assert item != null;
+
 		while (is_full()) {
 			try {
 				System.out.println("push waiting");

@@ -1,5 +1,9 @@
 package observer;
 
+/**
+ * @author Vincent Englebert
+ */
+
 import observer.example.Camembert;
 import observer.example.Data;
 import observer.example.Histogram;
