@@ -1,4 +1,4 @@
-package be.unamur.aspects;
+/*package be.unamur.aspects;
 import be.unamur.Client;
 import be.unamur.Compte;
 import be.unamur.Reader;
@@ -61,3 +61,4 @@ public aspect AuthenticationAspect {
 	}
 
 }
+*/

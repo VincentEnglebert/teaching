@@ -1,4 +1,4 @@
-package be.unamur.aspects;
+/*package be.unamur.aspects;
 
 public aspect TransactionAspect {
 
@@ -15,3 +15,4 @@ public aspect TransactionAspect {
     }
 
 }
+*/

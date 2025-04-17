@@ -1,4 +1,4 @@
-package be.unamur.aspects;
+/*package be.unamur.aspects;
 
 import java.util.logging.Logger;
 
@@ -19,13 +19,11 @@ public aspect LoggingAspect{
          return numeroTransaction;
     }
 
-    /* === poincut ==== */
     pointcut transactionLog(Float montant): 
     (
         xxx
     );
 
-    /* === advice === */
     after(Float montant): transactionLog(montant){
 
         // récupérer le compte sur lequel s'opère la transaction
@@ -41,3 +39,4 @@ public aspect LoggingAspect{
     }
 
 }
+*/

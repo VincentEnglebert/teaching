@@ -1,4 +1,4 @@
-package be.unamur.aspects;
+/*package be.unamur.aspects;
 
 import be.unamur.Compte;
 import be.unamur.impl.*;
@@ -57,3 +57,4 @@ public aspect NotificationAspect {
     }
 
 }
+*/

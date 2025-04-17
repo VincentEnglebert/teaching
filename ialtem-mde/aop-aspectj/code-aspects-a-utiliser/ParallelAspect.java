@@ -1,4 +1,4 @@
-package be.unamur.aspects;
+/*package be.unamur.aspects;
 
 public aspect ParallelAspect {
 
@@ -12,3 +12,4 @@ public aspect ParallelAspect {
     }
 
 }
+*/
