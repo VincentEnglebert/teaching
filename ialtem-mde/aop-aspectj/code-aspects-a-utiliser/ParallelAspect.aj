@@ -1,15 +1,9 @@
-/*package be.unamur.aspects;
+package be.unamur.aspects;
 
 public aspect ParallelAspect {
 
-    pointcut parallelTask(): (
-        xxx
-    );
+    // TODO: Ajouter un seul poincut pour capturer les JoinPoint concernés par les notifications
 
-    void around(): parallelTask(){
-
-        xxx
-    }
+    // TODO: Ajouter le code advice pour rendre parallèle les tâches de notifications (mail, sms, push)
 
 }
-*/

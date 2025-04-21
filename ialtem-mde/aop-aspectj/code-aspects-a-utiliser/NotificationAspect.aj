@@ -1,9 +1,8 @@
-/*package be.unamur.aspects;
+package be.unamur.aspects;
 
 import be.unamur.Compte;
 import be.unamur.impl.*;
-import be.unamur.interfaces.INotificationChannel;
-import be.unamur.interfaces.INotificationService;
+import be.unamur.interfaces.*;
 
 public aspect NotificationAspect {
 
@@ -11,8 +10,8 @@ public aspect NotificationAspect {
     // Lier l'interface à une implémentation par défaut
     INotificationChannel[] notificationChannels = {
             new PushNotification(),
-            //new EmailNotification(),
-            //new SMSNotification(),
+            new EmailNotification(),
+            new SMSNotification(),
     }; 
 
     declare parents:Compte implements INotificationService;
@@ -29,8 +28,7 @@ public aspect NotificationAspect {
     }
 
     public void Compte.send() {
-       // Diffuser aux channels choisis
-        xxx
+       //TODO: Diffuser aux channels choisis
     }
 
     // === LIAISON DE 1..* CANAUX DANS LE CONSTRUCTEUR ==================
@@ -38,23 +36,11 @@ public aspect NotificationAspect {
 	initialization(be.unamur.Compte.new(..))
     );
 
-    xxx(): sendNotification(){
-
-        xxx
-
-    }
+    // TODO: Ajouter le code advice pour le pointcut sendNotification
 
 
-    // === ALERTE ENTREE D'ARGENT =======================================
-    pointcut entreeArgent(): (
-        xxx
-    );
+    // TODO: Ajouter le poincut pour capturer les JoinPoint concernés par un dépôt d'argent
 
-    xxx(): entreeArgent(){
-        xxx
-	// Utiliser le channel choisi pour envoyer les notifications
-	compte.send();
-    }
+    // TODO: Ajouter le code advice qui notifie le client sur ses cannaux après un dépôt d'argent sur son compte
 
 }
-*/

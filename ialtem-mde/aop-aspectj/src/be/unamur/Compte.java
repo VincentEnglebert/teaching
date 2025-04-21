@@ -20,16 +20,15 @@ public class Compte {
 
 	public Compte deposer(Float montant) {
 		this.solde += montant;
-		System.out.printf("Dépôt de %.2f sur le compte de %s. Solde = %.2f\n", montant, this.client.getIdentite(), this.solde);
+		//System.out.printf("Dépôt de %.2f sur le compte de %s. Solde = %.2f\n", montant, this.client.getIdentite(), this.solde);
 		return this;
 	}
 	
 	public Compte retirer(Float montant) {
 		this.solde -= montant;
-		System.out.printf("Retrait de %.2f sur le compte de %s. Solde = %.2f\n", montant, this.client.getIdentite(), this.solde);
+		//System.out.printf("Retrait de %.2f sur le compte de %s. Solde = %.2f\n", montant, this.client.getIdentite(), this.solde);
 		return this;
 	}
-	
 
 	public void setRib(String rib) {
 		this.rib = rib;

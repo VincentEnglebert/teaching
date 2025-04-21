@@ -1,11 +1,12 @@
 package be.unamur.impl;
+import be.unamur.Client;
 
 import be.unamur.interfaces.INotificationChannel;
 
 public class EmailNotification implements INotificationChannel {
 
 	@Override
-	public void process()  {
+	public void process(Client client)  {
 		// TODO Auto-generated method stub
 		// Temps d'execution
 		
@@ -15,7 +16,7 @@ public class EmailNotification implements INotificationChannel {
 			e.printStackTrace();
 		}
 		
-		System.out.println("\n$$$ Envoi de MAIL au client $$$");
+		System.out.printf("\n$$$ Envoi de MAIL à %s $$$\n", client.getIdentite());
 	}
 
 }
